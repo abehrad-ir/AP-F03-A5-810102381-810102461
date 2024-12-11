@@ -1,0 +1,110 @@
+{
+    "sheep": [
+        [
+            
+            {
+                "name": "white_sheep",
+                "damage": 50,
+                "strength": 50,
+                "probability": 0.25,
+                "frame_count_move": 3,
+                "frame_count_stand": 4,
+                "path_move": "./assets/images/sheep/white_sheep_move.png",
+                "path_stand": "./assets/images/sheep/white_sheep_stand.png"
+            },
+            {
+                "name": "white_goat",
+                "damage": 50,
+                "strength": 50,
+                "probability": 0.25,
+                "frame_count_move": 8,
+                "frame_count_stand": 8,
+                "path_move": "./assets/images/sheep/white_goat_move.png",
+                "path_stand": "./assets/images/sheep/white_goat_stand.png"
+            },
+            {
+                "name": "pig",
+                "damage": 50,
+                "strength": 50,
+                "probability": 0.25,
+                "frame_count_move": 4,
+                "frame_count_stand": 4,
+                "path_move": "./assets/images/sheep/pig_move.png",
+                "path_stand": "./assets/images/sheep/pig_stand.png"
+            },
+            {
+                "name": "cow",
+                "damage": 50,
+                "strength": 50,
+                "probability": 0.25,
+                "frame_count_move": 10,
+                "frame_count_stand": 9,
+                "path_move": "./assets/images/sheep/cow_move.png",
+                "path_stand": "./assets/images/sheep/cow_stand.png"
+            }
+        ],
+        [
+            {
+                "name": "black_goat",
+                "damage": 50,
+                "strength": 50,
+                "probability": 0.2,
+                "frame_count_move": 8,
+                "frame_count_stand": 8,
+                "path_move": "./assets/images/sheep/black_goat_move.png",
+                "path_stand": "./assets/images/sheep/black_goat_stand.png"
+            },
+            {
+                "name": "black_pig",
+                "damage": 50,
+                "strength": 50,
+                "probability": 0.2,
+                "frame_count_move": 3,
+                "frame_count_stand": 6,
+                "path_move": "./assets/images/sheep/black_pig_move.png",
+                "path_stand": "./assets/images/sheep/black_pig_stand.png"
+            },
+            {
+                "name": "black_sheep",
+                "damage": 50,
+                "strength": 50,
+                "probability": 0.2,
+                "frame_count_move": 3,
+                "frame_count_stand": 4,
+                "path_move": "./assets/images/sheep/black_sheep_move.png",
+                "path_stand": "./assets/images/sheep/black_sheep_stand.png"
+            },
+            {
+                "name": "boar",
+                "damage": 50,
+                "strength": 50,
+                "probability": 0.2,
+                "frame_count_move": 5,
+                "frame_count_stand": 6,
+                "path_move": "./assets/images/sheep/boar_move.png",
+                "path_stand": "./assets/images/sheep/boar_stand.png"
+            },
+            {
+                "name": "ram",
+                "damage": 50,
+                "strength": 50,
+                "probability": 0.2,
+                "frame_count_move": 4,
+                "frame_count_stand": 8,
+                "path_move": "./assets/images/sheep/ram_move.png",
+                "path_stand": "./assets/images/sheep/ram_stand.png"
+            }
+        ]
+    ],
+    "constants": {
+        "cooldown": 500,
+        "health": 100,
+        "speed": 300,
+        "Player1": "Hooshang",
+        "Player2": "Heshmat"
+    },
+    "paths": {
+        "boardgame": "./assets/images/background.png",
+        "font": "./assets/fonts/RobotoSlab-Bold.ttf"
+    }
+}
